@@ -2,12 +2,12 @@
 When you're done, write another function `last` that returns the last value in the array.
 */
 
-function first( arr) {
+function first(arr) {
    return arr[0]
 }
 console.log(first([4, 9, 3])) // -> 4
 
 function last(arr) {
-    return arr[0] - 1
+    return arr[arr.length -1];
 }
-console.log(last([4, 9, 3])) // -> 3
+console.log(last([9, 9, 3])) // -> 3

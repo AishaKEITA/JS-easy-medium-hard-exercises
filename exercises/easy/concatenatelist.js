@@ -6,10 +6,8 @@ The function should return the two arrays merged into a single array.
 //     return [...array1, ...array2];
 // }
 
-function concatenate(arr1, arr2) {
-    let flattened = arr.reduce((acc, curVal) => {
-        return acc.concat(curVal)
-        }, []);
+function concatenate(a, b) {
+    return a.concat(b)
 }
 console.log(concatenate([1, 2, 3], [4, 5, 6]))
 // -> [1, 2, 3, 4, 5, 6]
